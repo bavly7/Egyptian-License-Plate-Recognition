@@ -29,3 +29,11 @@ Egyptian-License-Plate-Recognition/
 ├── utils.py             # Helper functions (Arabic mapping, visualization)
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation
+
+### 2. Video Inference (Tracking & Voting)
+To process a video file and generate a CSV report with the best license plate for each vehicle (using tracking and majority voting):
+
+1.  Place your video in the `data/` folder.
+2.  Run the video script:
+```bash
+python video_inference.py
